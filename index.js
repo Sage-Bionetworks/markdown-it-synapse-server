@@ -60,6 +60,12 @@ http.createServer(function(request, response) {
           }
       });
     });
+  } else if ((request.method === 'GET' || request.method === 'HEAD') && request.url === '/healthcheck') {
+      response.statusCode = 200;
+      responseBody = {
+          msg: "OK"
+      };
+      response.end(JSON.stringify(responseBody));
   } else {
     response.statusCode = 404;
     responseBody = {

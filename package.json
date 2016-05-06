@@ -5,7 +5,8 @@
   "repository": "markdown-it/markdown-it-synapse-server",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "keywords": [
     "markdown-it-plugin",
