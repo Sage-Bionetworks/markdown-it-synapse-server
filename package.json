@@ -23,7 +23,7 @@
     "serve-favicon": ">=2.5.0",
     "eslint": ">=4.18.2",
     "eslint-plugin-nodeca": "^1.0.0",
-    "markdown-it": "markdown-it/markdown-it",
+    "markdown-it": "~10.0.0",
     "markdown-it-testgen": ">=0.1.6",
     "mocha": ">=6.2.0",
     "markdown-it-synapse": "1.1.6",
