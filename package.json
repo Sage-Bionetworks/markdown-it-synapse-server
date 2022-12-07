@@ -38,11 +38,11 @@
     "markdown-it-synapse-heading": "^1.0.1",
     "markdown-it-synapse-table": "^1.0.6",
     "markdown-it-br": "^1.0.0",
-    "supertest": "^1.0.1",
+    "supertest": "^6.3.2",
     "juice": ">=5.2.0",
     "request": ">=2.88.0",
-    "express": ">=4.17.1",
-    "body-parser": "^1.15.0",
+    "express": ">=4.18.2",
+    "body-parser": "^1.20.1",
     "html-to-text": "^2.1.0"
   }
 }
